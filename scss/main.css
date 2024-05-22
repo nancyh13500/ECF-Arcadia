@@ -10781,4 +10781,13 @@ footer.footer {
   bottom: 0;
   width: 100%;
   font-family: "Inika";
+}
+
+.nav-item {
+  font-family: "Inika";
+}
+
+p {
+  font-family: "Adamina";
+  font-size: 18px;
 }/*# sourceMappingURL=main.css.map */
