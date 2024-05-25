@@ -10790,4 +10790,27 @@ footer.footer {
 p {
   font-family: "Adamina";
   font-size: 18px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image-cover {
+  min-width: 100%;
+}
+
+.name {
+  background-color: white;
+  color: black;
+  padding: 10px;
+}
+
+.box {
+  display: block;
+}
+
+.image-card {
+  display: block;
 }/*# sourceMappingURL=main.css.map */

@@ -6,9 +6,23 @@ html {
     min-height: 100%;
 }
 
-main {
-    margin-bottom: 206px;
+.hero-scene {
+    display: flex;
+    background-size: cover;
 }
+
+.hero-scene-content {
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    align-items: center;
+}
+main {
+    margin-bottom: 210px;
+}
+
+
 footer.footer {
     padding: 15px;
     position: absolute;
@@ -25,3 +39,23 @@ p {
     font-family: "Adamina";
     font-size: 18px;
 }
+
+
+.name {
+    background-color: white;
+    color: black;
+    padding-bottom: 15px;
+    font-family: "Adamina";
+}
+
+.img-card {
+    display: block;
+    align-items: center;
+}
+
+.background-img {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
