@@ -1,6 +1,20 @@
 @import url(/node_modules/bootstrap-icons/font/bootstrap-icons.css);
 @import 'custom';
 
+/*Reset*/
+
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        list-style: none;
+        text-decoration: none;
+      }
+}
+
+/*Fin de reset*/
+
+
 html {
     position: relative;
     min-height: 100%;
@@ -23,13 +37,6 @@ main {
 }
 
 
-footer.footer {
-    padding: 15px;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    font-family: "Inika";
-}
 
 .nav-item {
     font-family: "Inika";
@@ -50,7 +57,7 @@ p {
 
 .img-card {
     display: block;
-    align-items: center;
+    
 }
 
 .background-img {
@@ -59,10 +66,15 @@ p {
     position: relative;
 }
 
-.titre-image {
+
+/*Début de pie de page*/
+
+footer.footer {
+    padding: 15px;
     position: absolute;
-    top: 50%;
-    right: 50%;
-    opacity: 0;
-    transition: all 0.3s;
+    bottom: 0;
+    width: 100%;
+    font-family: "Inika";
 }
+
+/*Fin de pied de page*/

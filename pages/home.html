@@ -1,70 +1,113 @@
-<div id="carouselExample" class="carousel slide">
+<!--Section bannière avec carrousel-->
+
+<section id="banner">
+  <div id="carouselExample" class="carousel slide position-relative">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="/img/tigre1.jpg" class="d-block w-100" alt="tigre1">
+        <img src="/img/tigre1.jpg" class="d-block w-100" alt="tigre" />
       </div>
       <div class="carousel-item">
-        <img src="/img/girafe3.jpg" class="d-block w-100" alt="girafe3">
+        <img src="/img/girafe3.jpg" class="d-block w-100" alt="girafe" />
       </div>
       <div class="carousel-item">
-        <img src="/img/lion3.jpg" class="d-block w-100" alt="lion3">
+        <img src="/img/lion3.jpg" class="d-block w-100" alt="lion" />
       </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <div class="image_text position-absolute">
+      <h1>Bienvenue au Zoo Arcadia</h1>
+    </div>
+    <button
+      class="carousel-control-prev"
+      type="button"
+      data-bs-target="#carouselExample"
+      data-bs-slide="prev"
+    >
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Previous</span>
     </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <button
+      class="carousel-control-next"
+      type="button"
+      data-bs-target="#carouselExample"
+      data-bs-slide="next"
+    >
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
   </div>
+</section>
 
-<section>
-    <article class="bg-secondary text-center p-4">
-        <div class="container p-3 text-white">
-            <p>Arcadia est un Zoo situé en France près de la forêt de Brocéliande en Bretagne depuis 1960.</p>
-            <p>Vous trouverez tout un panel d'animaux, réparti par habitat, savane, jungle, marais...</p><br>
-            <p>Tous ces animaux sont heureux.</p>
-        </div>
-    </article>
+<!--Fin de sction bannière avec carrousel-->
+
+<!--Section bienvenue-->
+<section id="welcome">
+  <article class="bg-secondary text-center p-4">
+    <div class="container p-3 text-white">
+      <p>
+        Arcadia est un Zoo situé en France près de la forêt de Brocéliande en
+        Bretagne depuis 1960.
+      </p>
+      <p>
+        Vous trouverez tout un panel d'animaux, réparti par habitat, savane,
+        jungle, marais...
+      </p>
+      <br />
+      <p>Tous ces animaux sont heureux.</p>
+    </div>
+  </article>
 </section>
-<section>
-    <article class="cpntainer bg-dark p-4">
-        <p class="text-center text-white">Nos animaux</p>
-        <p class="text-center text-white">Portrait de nos habitants</p>
-        <div class="row row-cols-1 row-cols-lg-3 pe-4">
-          <div class="col pe-3">
-            <div class="img-card">
-                <img src="/img/girafe.jpg" alt="Sophie" class="w-100">
-            </div>
-            <div class="name text-center">
-                <a href="/pages/habitats.html" class="btn btn-dark text-white">Sophie</a>
-            </div>
-          </div>
-          <div class="col pe-3">
-            <div class="img-card">
-                <img src="/img/lion.jpg" alt="King" class="w-100">
-            </div>
-            <div class="name text-center">
-                <a href="/pages/habitats.html" class="btn btn-dark text-white">The King</a>
-            </div>
-          </div>
-          <div class="col pe-3">
-            <div class="img-card">
-                <img src="/img/hippopotame.jpg" alt="Blacky" class="w-100">
-            </div>
-            <div class="name text-center">
-                <a href="/pages/habitats.html" class="btn btn-dark text-white">Blacky</a>
-            </div>
-          </div>
+
+<!--Fin section bienvenue-->
+
+<!--Section animals-->
+<section id="animals">
+  <article class="bg-dark p-4">
+    <p class="text-center text-white">Nos animaux</p>
+    <p class="text-center text-white">Portrait de nos habitants</p>
+    <div class="row row-cols-1 row-cols-lg-3 pe-4">
+      <div class="col pe-3">
+        <div class="img-card">
+          <img src="/img/girafe.jpg" alt="Sophie" class="w-100" />
         </div>
-      </article>
-</section>
-<section>
-    <article class="bg-primary p-5">
-        <div class="container p-3 text-white">
-            <p>Avis</p>
+        <div class="name text-center">
+          <a href="/pages/habitats.html" class="btn btn-dark text-white"
+            >Sophie</a
+          >
         </div>
-    </article>
+      </div>
+      <div class="col pe-3">
+        <div class="img-card">
+          <img src="/img/lion.jpg" alt="King" class="w-100" />
+        </div>
+        <div class="name text-center">
+          <a href="/pages/habitats.html" class="btn btn-dark text-white"
+            >The King</a
+          >
+        </div>
+      </div>
+      <div class="col pe-3">
+        <div class="img-card">
+          <img src="/img/hippopotame.jpg" alt="Blacky" class="w-100" />
+        </div>
+        <div class="name text-center">
+          <a href="/pages/habitats.html" class="btn btn-dark text-white"
+            >Blacky</a
+          >
+        </div>
+      </div>
+    </div>
+  </article>
 </section>
+
+<!--Fin section animals-->
+
+<!--Section avis-->
+<section>
+  <article class="bg-primary p-5">
+    <div class="container p-3 text-white">
+      <p>Avis</p>
+    </div>
+  </article>
+</section>
+
+<!--Fin section avis-->
