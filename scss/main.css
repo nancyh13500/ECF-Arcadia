@@ -10782,7 +10782,7 @@ textarea.form-control-lg {
 }
 
 .hero-scene-content {
-  height: 280px;
+  height: 250px;
   display: flex;
   flex-direction: row;
   margin-left: 50px;
@@ -10794,15 +10794,18 @@ textarea.form-control-lg {
   font-family: "Inika";
 }
 
+.navbar a {
+  font-family: "Alice";
+}
+
 /*End section navbar*/
 p {
   font-family: "Adamina";
-  font-size: 18px;
 }
 
 /*Section banner*/
 .image-text {
-  bottom: 120px;
+  bottom: 130px;
   right: 160px;
 }
 
@@ -10837,4 +10840,18 @@ p {
   padding-bottom: 20px;
 }
 
-/*End section footer*//*# sourceMappingURL=main.css.map */
+/*End section footer*/
+/*mediaqueries*/
+@media screen and (max-width: 768px) {
+  .image-text {
+    bottom: 0;
+    right: 15px;
+  }
+  h1, .h1 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 12px;
+  }
+}
+/*fin mediaqueries*//*# sourceMappingURL=main.css.map */
