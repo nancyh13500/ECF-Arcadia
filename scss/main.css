@@ -10766,51 +10766,75 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-html {
-  position: relative;
-  min-height: 100%;
+/*Reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
 }
 
-main {
-  margin-bottom: 206px;
+/*Fin de reset*/
+.hero-scene {
+  display: flex;
+  background-size: cover;
 }
 
-footer.footer {
-  padding: 15px;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  font-family: "Inika";
+.hero-scene-content {
+  height: 280px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+  align-items: center;
 }
 
+/*Section navbar*/
 .nav-item {
   font-family: "Inika";
 }
 
+/*End section navbar*/
 p {
   font-family: "Adamina";
   font-size: 18px;
 }
 
-.row {
-  display: flex;
-  flex-wrap: wrap;
+/*Section banner*/
+.image-text {
+  bottom: 120px;
+  right: 160px;
 }
 
-.image-cover {
-  min-width: 100%;
-}
-
+/*End section banner*/
+/*Section animals*/
 .name {
   background-color: white;
   color: black;
-  padding: 10px;
+  padding-bottom: 15px;
+  font-family: "Adamina";
 }
 
-.box {
+.img-card {
   display: block;
 }
 
-.image-card {
-  display: block;
-}/*# sourceMappingURL=main.css.map */
+.background-img {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+/*End section animals*/
+/*Section footer*/
+#footer {
+  width: 100%;
+  font-family: "Inika";
+}
+
+.footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/*End section footer*//*# sourceMappingURL=main.css.map */

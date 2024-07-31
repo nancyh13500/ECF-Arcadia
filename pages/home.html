@@ -1,4 +1,4 @@
-<!--Section bannière avec carrousel-->
+<!--Section banner with carrousel-->
 
 <section id="banner">
   <div id="carouselExample" class="carousel slide position-relative">
@@ -12,9 +12,13 @@
       <div class="carousel-item">
         <img src="/img/lion3.jpg" class="d-block w-100" alt="lion" />
       </div>
-    </div>
-    <div class="image_text position-absolute">
-      <h1>Bienvenue au Zoo Arcadia</h1>
+      <div class="image-text position-absolute">
+        <h1 class="text-white">Bienvenue au Zoo Arcadia</h1>
+        <div class="text text-white">
+          <p class="text-center">Forêt de Brocéliande en Bretagne</p>
+          <p class="text-end">Ouvert 7/7j</p>
+        </div>
+      </div>
     </div>
     <button
       class="carousel-control-prev"
@@ -37,9 +41,9 @@
   </div>
 </section>
 
-<!--Fin de sction bannière avec carrousel-->
+<!--End banner with carrousel-->
 
-<!--Section bienvenue-->
+<!--Section welcome-->
 <section id="welcome">
   <article class="bg-secondary text-center p-4">
     <div class="container p-3 text-white">
@@ -57,11 +61,11 @@
   </article>
 </section>
 
-<!--Fin section bienvenue-->
+<!--End section wolcome-->
 
 <!--Section animals-->
 <section id="animals">
-  <article class="bg-dark p-4">
+  <article class="bg-dark p-4 align-content-center">
     <p class="text-center text-white">Nos animaux</p>
     <p class="text-center text-white">Portrait de nos habitants</p>
     <div class="row row-cols-1 row-cols-lg-3 pe-4">
@@ -99,15 +103,31 @@
   </article>
 </section>
 
-<!--Fin section animals-->
+<!--End section animals-->
 
 <!--Section avis-->
 <section>
-  <article class="bg-primary p-5">
+  <article class="avis bg-primary p-5">
     <div class="container p-3 text-white">
       <p>Avis</p>
+    </div>
+    <div class="container_avis">
+      <div class="row row-cols-md-3 align-content-md-center">
+        <div class="row">
+          <p>Donnez votre avis</p>
+          <input type="text" id="text" required minlength="2" maxlength="100" />
+        </div>
+        <div class="row">
+          <p>Donnez votre avis</p>
+          <input type="text" id="text" required minlength="2" maxlength="100" />
+        </div>
+        <div class="row">
+          <p>Donnez votre avis</p>
+          <input type="text" id="text" required minlength="2" maxlength="100" />
+        </div>
+      </div>
     </div>
   </article>
 </section>
 
-<!--Fin section avis-->
+<!--End section avis-->

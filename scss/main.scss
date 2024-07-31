@@ -10,15 +10,10 @@
         list-style: none;
         text-decoration: none;
       }
-}
 
 /*Fin de reset*/
 
 
-html {
-    position: relative;
-    min-height: 100%;
-}
 
 .hero-scene {
     display: flex;
@@ -26,27 +21,42 @@ html {
 }
 
 .hero-scene-content {
-    height: 300px;
+    height: 280px;
     display: flex;
     flex-direction: row;
     margin-left: 50px;
     align-items: center;
 }
-main {
-    margin-bottom: 210px;
-}
+// main {
+//     margin-bottom: 210px;
+// }
 
-
+/*Section navbar*/
 
 .nav-item {
     font-family: "Inika";
 }
+
+
+/*End section navbar*/
+
 
 p {
     font-family: "Adamina";
     font-size: 18px;
 }
 
+/*Section banner*/
+.image-text {
+    bottom: 120px;
+    right: 160px;
+}
+
+
+
+/*End section banner*/
+
+/*Section animals*/
 
 .name {
     background-color: white;
@@ -66,15 +76,18 @@ p {
     position: relative;
 }
 
+/*End section animals*/
 
-/*Début de pie de page*/
+/*Section footer*/
 
-footer.footer {
-    padding: 15px;
-    position: absolute;
-    bottom: 0;
+#footer {
     width: 100%;
     font-family: "Inika";
 }
 
-/*Fin de pied de page*/
+.footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/*End section footer*/
