@@ -14,24 +14,12 @@
 p {
     font-family: "Adamina";
     font-size: 18px;
-}      
+}
+
 
 /*Fin de reset*/
 
 
-
-.hero-scene {
-    display: flex;
-    background-size: cover;
-}
-
-.hero-scene-content {
-    height: 250px;
-    display: flex;
-    flex-direction: row;
-    margin-left: 50px;
-    align-items: center;
-}
 
 /*Section navbar*/
 
@@ -60,7 +48,7 @@ p {
 }
 
 .image-text p {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 
@@ -95,12 +83,9 @@ p {
     position: relative; 
 }
 
-.img-bg {
-    transition: 50%;
+.services_text {
+    display: flex;
 }
-
-
-
 
 
 /*End section services*/
@@ -111,6 +96,7 @@ p {
     width: 100%;
     font-family: "Inika";
 }
+
 
 .footer {
     padding-top: 20px;
@@ -135,13 +121,11 @@ p {
     p {
         font-size: 12px;
     }
-    #animals {
-        text-align: center;
-    }
+   
     .img-card .name {
         width: 70%;
-
     }
+
 }
 
 /*fin mediaqueries*/
