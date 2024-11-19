@@ -24,8 +24,7 @@
       class="carousel-control-prev"
       type="button"
       data-bs-target="#carouselExample"
-      data-bs-slide="prev"
-    >
+      data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Previous</span>
     </button>
@@ -33,8 +32,7 @@
       class="carousel-control-next"
       type="button"
       data-bs-target="#carouselExample"
-      data-bs-slide="next"
-    >
+      data-bs-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
@@ -74,9 +72,7 @@
           <img src="/img/girafe.jpg" alt="Sophie" class="w-100" />
         </div>
         <div class="name text-center">
-          <a href="/pages/habitats.html" class="btn btn-dark text-white"
-            >Sophie</a
-          >
+          <a href="/pages/habitats.php" class="btn btn-dark text-white">Sophie</a>
         </div>
       </div>
       <div class="col pe-3">
@@ -84,9 +80,7 @@
           <img src="/img/lion.jpg" alt="King" class="w-100" />
         </div>
         <div class="name text-center">
-          <a href="/pages/habitats.html" class="btn btn-dark text-white"
-            >The King</a
-          >
+          <a href="/pages/habitats.php" class="btn btn-dark text-white">The King</a>
         </div>
       </div>
       <div class="col pe-3">
@@ -94,9 +88,7 @@
           <img src="/img/hippopotame.jpg" alt="Blacky" class="w-100" />
         </div>
         <div class="name text-center">
-          <a href="/pages/habitats.html" class="btn btn-dark text-white"
-            >Blacky</a
-          >
+          <a href="/pages/habitats.php" class="btn btn-dark text-white">Blacky</a>
         </div>
       </div>
     </div>

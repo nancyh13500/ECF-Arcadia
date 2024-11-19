@@ -1,3 +1,9 @@
+<?php
+require_once('../templates/header.php');
+
+
+?>
+
 <!--Section services-->
 
 <section id="services">
@@ -20,3 +26,7 @@
 </section>
 
 <!--End section services-->
+
+<?php
+require_once('../templates/footer.php');
+?>

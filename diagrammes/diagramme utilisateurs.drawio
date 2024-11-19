@@ -1,0 +1,84 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.8 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.8">
+  <diagram name="Page-1" id="KzjaEj8Oa7Iz-sgTSsV4">
+    <mxGraphModel dx="1036" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="M-uOFilQeb9qAUC9iLfR-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="110" y="10" width="960" height="1620" as="geometry" />
+        </mxCell>
+        <mxCell id="M-uOFilQeb9qAUC9iLfR-3" value="Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="40" y="80" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M-uOFilQeb9qAUC9iLfR-4" value="Employé" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="40" y="890" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M-uOFilQeb9qAUC9iLfR-5" value="Visiteur" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="40" y="1470" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M-uOFilQeb9qAUC9iLfR-14" value="Donner un avis" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="1470" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="M-uOFilQeb9qAUC9iLfR-16" value="Consulter les habitats" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="1390" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="M-uOFilQeb9qAUC9iLfR-18" value="Consulter les services" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="1270" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mheypEP49r9GzQQF65MS-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="M-uOFilQeb9qAUC9iLfR-20" target="mheypEP49r9GzQQF65MS-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M-uOFilQeb9qAUC9iLfR-20" value="Vétérinaire" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="40" y="405" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M-uOFilQeb9qAUC9iLfR-22" value="Contacter le zoo" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="1550" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="M-uOFilQeb9qAUC9iLfR-29" value="Se connecter" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="640" y="910" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="M-uOFilQeb9qAUC9iLfR-30" value="Gérer les avis&lt;div&gt;CRUD&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="910" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="M-uOFilQeb9qAUC9iLfR-31" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="M-uOFilQeb9qAUC9iLfR-30" target="M-uOFilQeb9qAUC9iLfR-29" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="1000" as="sourcePoint" />
+            <mxPoint x="410" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M-uOFilQeb9qAUC9iLfR-32" value="Include" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="M-uOFilQeb9qAUC9iLfR-31" vertex="1" connectable="0">
+          <mxGeometry x="-0.1908" y="7" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M-uOFilQeb9qAUC9iLfR-33" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="M-uOFilQeb9qAUC9iLfR-5" target="M-uOFilQeb9qAUC9iLfR-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="810" as="sourcePoint" />
+            <mxPoint x="80" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M-uOFilQeb9qAUC9iLfR-34" value="Modifier les services" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="990" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="M-uOFilQeb9qAUC9iLfR-35" value="Créer un compte employé" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="14" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="M-uOFilQeb9qAUC9iLfR-36" value="Créer un compte vétérinaire" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="94" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="M-uOFilQeb9qAUC9iLfR-37" value="Modifier les horaires, services, habitats, animaux" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="174" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mheypEP49r9GzQQF65MS-1" value="Créer un compte employé ou vétérinaire" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="254" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mheypEP49r9GzQQF65MS-2" value="Modification fiche animal" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="400" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="U_w4Ik6Jxx74LDAFY0WY-1" value="Accéder à la pasge d&#39;accueil" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1190" width="100" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
