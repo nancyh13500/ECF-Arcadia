@@ -4,15 +4,15 @@
 /*Reset*/
 
 * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        list-style: none;
-        text-decoration: none;
-      }
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
 
 p {
-    font-family: "Adamina";
+    font-family: "Raleway";
     font-size: 18px;
 }
 
@@ -24,11 +24,11 @@ p {
 /*Section navbar*/
 
 .nav-item {
-    font-family: "Inika";
+    font-family: "Roboto";
 }
 
 .navbar a {
-    font-family: "Alice";
+    font-family: "Roboto";
 }
 
 
@@ -51,8 +51,6 @@ p {
     font-size: 25px;
 }
 
-
-
 /*End section banner*/
 
 /*Section animals*/
@@ -62,12 +60,13 @@ p {
     background-color: white;
     color: black;
     padding-bottom: 15px;
-    font-family: "Adamina";
+    font-family: "Raleway";
 }
 
-.img-card {
-    display: block;
-    
+.img-card img {
+    width: 50%;
+    height: 50%;
+
 }
 
 .background-img {
@@ -80,7 +79,7 @@ p {
 
 /*Section services*/
 #services {
-    position: relative; 
+    position: relative;
 }
 
 .services_text {
@@ -94,7 +93,7 @@ p {
 
 #footer {
     width: 100%;
-    font-family: "Inika";
+    font-family: "Roboto";
 }
 
 
@@ -108,24 +107,32 @@ p {
 
 /*mediaqueries*/
 @media screen and (max-width: 768px) {
-    .image-text{
+    .image-text {
         bottom: 0;
         right: 15px;
     }
-    .image-text h1 {
-        font-size: 14px;
-    }
-    .image-text p {
-        font-size: 14px;
-    }
-    p {
-        font-size: 12px;
-    }
-   
-    .img-card .name {
-        width: 70%;
+
+    .text {
+        font-size: 10px;
     }
 
+    .footer .row {
+        font-size: 0.875rem;
+        flex-direction: column;
+        align-items: center;
+        /* Pour centrer le contenu si souhaité */
+    }
+
+    .footer .col-4 {
+        margin-bottom: 15px;
+        /* Espacement entre les éléments */
+        text-align: center;
+        /* Centrer le texte pour une présentation uniforme */
+    }
+
+    .nav-link {
+        font-size: 15px;
+    }
 }
 
 /*fin mediaqueries*/
