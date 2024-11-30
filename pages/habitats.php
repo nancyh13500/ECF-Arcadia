@@ -1,14 +1,15 @@
 <?php
-require_once('../templates/header.php');
+require_once 'templates/header.php';
 ?>
 
-<h1>Nos habitats</h1>
-<div class="row">
-    <div class="col-md-3">
-        <img src="../img/girafe.jpg" alt="girafe">
+<div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+    <div class="col-10 col-sm-8 col-lg-6">
+        <img src="/img/girafe2.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+    </div>
+    <div class="col-lg-6">
+        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Responsive left-aligned hero with image</h1>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button type="button" class="btn btn-dark btn-lg px-4 me-md-2 text-center">Voir son habitat</button>
+        </div>
     </div>
 </div>
-
-<?php
-require_once('../templates/footer.php');
-?>
