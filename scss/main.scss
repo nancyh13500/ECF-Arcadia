@@ -35,6 +35,9 @@ p {
 /*End section navbar*/
 
 /*Section welcome*/
+.p-4 {
+    padding: 3.5rem;
+}
 
 
 
@@ -63,9 +66,9 @@ p {
     font-family: "Raleway";
 }
 
-.img-card img {
-    width: 50%;
-    height: 50%;
+.img_card {
+    align-items: center;
+    size: 18rem;
 
 }
 
@@ -76,6 +79,14 @@ p {
 }
 
 /*End section animals*/
+
+/*Section avis*/
+.container {
+    text-align: center;
+}
+
+
+/*End section avis*/
 
 /*Section services*/
 #services {
@@ -105,11 +116,17 @@ p {
 /*End section footer*/
 
 
-/*mediaqueries*/
+/*media queries*/
 @media screen and (max-width: 768px) {
+    .p-4 {
+        padding: 1.5rem;
+    }
+
     .image-text {
         bottom: 0;
         right: 15px;
+        text-align: center;
+
     }
 
     .text {
@@ -133,6 +150,43 @@ p {
     .nav-link {
         font-size: 15px;
     }
+
+    .name .btn {
+        width: 50%;
+    }
+
+    /* Centrer les .images-card */
+    .card {
+        margin: 0 auto;
+        /* Centre horizontalement */
+        max-width: 90%;
+        /* Limite la taille des images */
+        display: block;
+    }
+
+    /* Pour centrer le texte sous les images */
+    .name {
+        text-align: center;
+    }
+
+    .col {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
-/*fin mediaqueries*/
+@media screen and (max-width: 990px) {
+
+    .card {
+        width: 50%;
+        align-items: center;
+    }
+
+    .w-100 {
+        width: 90% !important;
+    }
+}
+
+
+/*fin media queries*/

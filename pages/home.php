@@ -59,32 +59,33 @@
       <p class="text-center text-white">Portrait de nos habitants</p>
     </article>
 
-    <div class="row row-cols-1 row-cols-lg-3">
-      <div class="col">
-        <div class="images-card">
-          <img src="/img/girafe.jpg" alt="Sophie" class="w-100" />
-        </div>
-        <div class="name text-center bg-dark">
-          <a href="/pages/habitats.php" class="btn btn-secondary text-white">Sophie</a>
-        </div>
-      </div>
-      <div class="col">
-        <div class="img-card">
-          <img src="/img/lion.jpg" alt="King" class="w-100" />
-        </div>
-        <div class="name text-center bg-dark">
-          <a href="/pages/habitats.php" class="btn btn-secondary text-white">The King</a>
+    <div class="row">
+      <div class="col-md-4 style=" width: 18rem;>
+        <div class="card bg-dark">
+          <img src="/img/girafe.jpg" alt="Sophie">
+          <div class="card-body text-center">
+            <a href="/pages/sophie.php" class="btn btn-secondary text-white w-100">Sophie</a>
+          </div>
         </div>
       </div>
-      <div class="col">
-        <div class="img-card">
-          <img src="/img/hippopotame.jpg" alt="Blacky" class="w-100" />
+      <div class="col-md-4 style=" width: 18rem;>
+        <div class="card bg-dark">
+          <img src="/img/lion.jpg" alt="The King">
+          <div class="card-body text-center">
+            <a href="/pages/king.php" class="btn btn-secondary text-white w-100">The King</a>
+          </div>
         </div>
-        <div class="name text-center bg-dark">
-          <a href="/pages/habitats.php" class="btn btn-secondary text-white">Blacky</a>
+      </div>
+      <div class="col-md-4 style=" width: 18rem;>
+        <div class="card bg-dark">
+          <img src="/img/hippopotame.jpg" alt="Blacky">
+          <div class="card-body text-center">
+            <a href="/pages/blacky.php" class="btn btn-secondary text-white w-100">Blacky</a>
+          </div>
         </div>
       </div>
     </div>
+
   </div>
   </div>
 </section>
